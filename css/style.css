@@ -324,7 +324,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    background: #1a1b23;
+    background: #000000;
 }
 
 .intro-content {
@@ -500,6 +500,7 @@ body {
 .profile-page,
 .resume-page,
 .portfolio-page,
+.portfolio-page2,
 .contact-page {
     position: absolute;
     top: 0;
@@ -750,6 +751,8 @@ body {
     padding: 15px 5px;
 }
 
+
+
 /* ( b ) Experience Section */
 
 .experience {
@@ -859,6 +862,12 @@ body {
 
 .portfolio-page .image-container {
     background: url(../images/background/portfolio_image.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.portfolio-page2 .image-container {
+    background: url(../images/background/portfolio_image2.jpg);
     background-size: cover;
     background-position: bottom;
 }
